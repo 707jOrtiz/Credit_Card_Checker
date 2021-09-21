@@ -100,4 +100,4 @@ for (let i of batch) {
 //console.log(nested);
 //console.log(findInvalidCards(nested));
 //console.log(valid1);
-console.log(validateCred(invalid1));
+//console.log(validateCred(invalid1));
