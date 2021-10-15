@@ -1,6 +1,6 @@
 # Credit_Card_Checker
 
-Checks if card number provided is valid
+Checks if card number provided is valid using Luhn Algorithm.
 
 My first project with javascript.
 
