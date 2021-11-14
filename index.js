@@ -23,12 +23,13 @@ const mystery5 = [4, 9, 1, 3, 5, 4, 0, 4, 6, 3, 0, 7, 2, 5, 2, 3];
 const batch = [valid1, valid2, valid3, valid4, valid5, invalid1, invalid2, invalid3, invalid4, invalid5, mystery1, mystery2, mystery3, mystery4, mystery5];
 
 
-// Hours wasted on this one function: 4
+
 function validateCred(array) {
   let doubled = [];
   let slicedCard = array.slice(0, -1)
   slicedCard.reverse()
   // Both loops following Luhn algorithm to check validiation
+  // This loop starting from right to left, doubles every other digit and pushes numbers to an array
   for (let i in slicedCard) {
     if (i%2 == 0) {
       doubled.push(slicedCard[i] * 2);
